@@ -1,0 +1,828 @@
+/* Benefits Section */
+.benefits-section {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.benefits-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.benefit-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 75px 200px;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+/* Benefit Content */
+.benefit-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    z-index: 5;
+    width: 40%;
+}
+
+.benefit-icon-wrapper {
+    width: 72px;
+    height: 72px;
+    background: #F12727;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.benefit-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.benefit-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+}
+
+.benefit-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #364363;
+    margin: 0;
+    text-align: left;
+}
+
+/* Benefit Visual */
+.benefit-visual {
+    position: relative;
+    background: #F7F9FD;
+    overflow: hidden;
+    aspect-ratio: 1;
+    flex: 1;
+}
+
+.benefit-image {
+    position: absolute;
+    object-fit: fill;
+    z-index: 3;
+}
+
+/* Item 1 - Connectivity */
+.benefit-item:nth-child(1) .benefit-content {
+    top: 225px;
+    transform: none;
+}
+
+.benefit-item:nth-child(1) .benefit-image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    height: 60%;
+}
+
+.benefit-item:nth-child(1) .benefit-decoration {
+    position: absolute;
+    left: 50%;
+    transform: translate(-30%,-50%);
+    top: 50%;
+    width: 50%;
+    z-index: 1;
+}
+
+.benefit-item:nth-child(1) .decoration-svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Item 2 - Shopping */
+.benefit-item:nth-child(2) .benefit-content {
+    top: 197px;
+    transform: none;
+}
+
+.benefit-item:nth-child(2) .benefit-image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    height: 60%;
+}
+
+.benefit-item:nth-child(2) .benefit-gradient-overlay {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, #FAFAFA 0%, rgba(250, 250, 250, 0) 100%);
+    z-index: 4;
+}
+
+/* Item 3 - Easy Payment */
+.benefit-item:nth-child(3) .benefit-content {
+    top: 311px;
+    transform: none;
+}
+
+.benefit-item:nth-child(3) .benefit-image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    height: 60%;
+}
+
+.benefit-item:nth-child(3) .benefit-gradient-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #FAFAFA 0%, rgba(250, 250, 250, 0) 100%);
+    z-index: 4;
+}
+
+/* Item 4 - Security */
+.benefit-item:nth-child(4) .benefit-content {
+    top: 226px;
+    transform: none;
+}
+
+.benefit-item:nth-child(4) .benefit-image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    height: 60%;
+}
+
+.benefit-item:nth-child(4) .benefit-gradient-overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    width: 80%;
+    height: 30%;
+    background: linear-gradient(0deg, #FAFAFA 0%, rgba(250, 250, 250, 0.00) 100%);
+    z-index: 8;
+}
+
+.benefit-item:nth-child(4) .benefit-decoration {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5%;
+    width: 50%;
+    z-index: 1;
+}
+
+.benefit-item:nth-child(4) .decoration-svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Benefits Detail Section */
+.benefits-detail-section {
+    background: #FFFFFF;
+    padding: 128px 200px;
+    overflow: hidden;
+}
+
+.benefits-detail-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 153px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* Visual Area */
+.benefits-detail-visual {
+    width: 100%;
+    max-width: 45%;
+    height: 800px;
+    background: #F7F9FD;
+    position: relative;
+    flex-shrink: 0;
+}
+
+/* Background Vector */
+.benefits-bg-vector {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    width: 80%;
+    z-index: 1;
+}
+
+/* Contactless Payment Image */
+.contactless-payment-image {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    width: 100%;
+    z-index: 2;
+}
+
+.usage-illustration-img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Content Area */
+.benefits-detail-content {
+    display: flex;
+    flex-direction: column;
+    gap:32px
+}
+
+.benefits-detail-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.benefits-detail-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #364363;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+/* How to Use Section */
+.how-to-use-section {
+    background: radial-gradient(circle at 50% 33.53%, #124EF3 8.19%, #0E3DBE 100%);
+    width: 100%;
+    height: 919px;
+    position: relative;
+    overflow: hidden;
+}
+.container-how-to-use-section{
+    width: 100%;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+}
+/* Gradient Overlays */
+.gradient-overlay-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 581px;
+    z-index: 4;
+}
+
+.gradient-overlay-top{
+    transform: translateY(5px);
+}
+
+.gradient-overlay-bottom {
+    width: 100%;
+    height: 185px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.98) 4.7%, rgba(255, 255, 255, 0.96) 8.9%, rgba(255, 255, 255, 0.93) 12.8%, rgba(255, 255, 255, 0.90) 16.56%, rgba(255, 255, 255, 0.86) 20.37%, rgba(255, 255, 255, 0.82) 24.4%, rgba(255, 255, 255, 0.77) 28.83%, rgba(255, 255, 255, 0.71) 33.84%, rgba(255, 255, 255, 0.65) 39.6%, rgba(255, 255, 255, 0.57) 46.3%, rgba(255, 255, 255, 0.48) 54.1%, rgba(255, 255, 255, 0.38) 63.2%, rgba(255, 255, 255, 0.27) 73.76%, rgba(255, 255, 255, 0.14) 85.97%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+/* Animated Circles */
+.animated-circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.animated-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: none;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    aspect-ratio:1;
+    overflow: hidden;
+    filter: brightness(1.2) contrast(1.1);
+}
+
+.animated-circle::before {
+    content: '';
+    rotate: 90deg;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 50%;
+    padding: 1px;
+    background: conic-gradient(
+        from 0deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.3) 10%,
+        rgba(255, 255, 255, 0.1) 25%,
+        rgba(255, 255, 255, 0.95) 40%,
+        rgba(255, 255, 255, 0.2) 60%,
+        rgba(255, 255, 255, 0.9) 80%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+}
+
+/* Circle 1 - Inner circle (Ellipse 14) */
+.circle-1 {
+    width: 30vw;
+    min-width: 200px;
+}
+
+.circle-1::before {
+    background: conic-gradient(
+        from 0deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.15) 28%,
+        rgba(255, 255, 255, 0.95) 45%,
+        rgba(255, 255, 255, 0.25) 65%,
+        rgba(255, 255, 255, 0.1) 85%,
+        rgba(255, 255, 255, 0.9) 100%
+    );
+}
+
+/* Circle 2 - Middle circle (Ellipse 15) */
+.circle-2 {
+    width: 50vw;
+    min-width: 300px;
+}
+
+.circle-2::before {
+    background: conic-gradient(
+        from 0deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.35) 18%,
+        rgba(255, 255, 255, 0.12) 32%,
+        rgba(255, 255, 255, 0.92) 48%,
+        rgba(255, 255, 255, 0.22) 68%,
+        rgba(255, 255, 255, 0.08) 88%,
+        rgba(255, 255, 255, 0.85) 100%
+    );
+}
+
+/* Circle 3 - Large outer circle (Ellipse 16) */
+.circle-3 {
+    width: 70vw;
+    min-width: 500px;
+}
+
+/* Circle 4 - Larger outer circle (Ellipse 17) */
+.circle-4 {
+    width: 90vw;
+    min-width: 800px;
+}
+
+/* Circle 5 - Largest outer circle (Ellipse 18) */
+.circle-5 {
+    width: 110vw;
+    min-width: 600px;
+}
+
+/* Apple Pay Logo */
+.apple-pay-logo {
+    height: 154px;
+}
+
+.apple-pay-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Usage Title */
+.usage-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 128px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.56%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    z-index: 4;
+}
+
+/* Demo Phone Container */
+.demo-phone-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 327px;
+    height: 401px;
+    z-index:4;
+}
+
+.demo-phone-mask {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.demo-phone-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.demo-phone-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+}
+
+/* Play Button */
+.play-button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.play-button:hover {
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1);
+}
+
+.play-button img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Circle Animation */
+@keyframes rotateCircle {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes rotateCircleReverse {
+    0% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+/* Circle Animation Classes */
+.animated-circle {
+    animation: rotateCircle 20s linear infinite;
+    will-change: transform;
+}
+
+.circle-1 {
+    animation: rotateCircle 25s linear infinite;
+    animation-delay: -2s;
+}
+
+.circle-2 {
+    animation: rotateCircleReverse 30s linear infinite;
+    animation-delay: -5s;
+}
+
+.circle-3 {
+    animation: rotateCircle 35s linear infinite;
+    animation-delay: -8s;
+}
+
+.circle-4 {
+    animation: rotateCircleReverse 40s linear infinite;
+    animation-delay: -12s;
+}
+
+.circle-5 {
+    animation: rotateCircle 45s linear infinite;
+    animation-delay: -15s;
+}
+
+/* Performance optimizations */
+@media (prefers-reduced-motion: reduce) {
+    .animated-circle {
+        animation: none;
+    }
+}
+
+/* Mobile optimization - slower animations for better performance */
+@media (max-width: 768px) {
+    .circle-1 {
+        animation-duration: 40s;
+    }
+    
+    .circle-2 {
+        animation-duration: 45s;
+    }
+    
+    .circle-3 {
+        animation-duration: 50s;
+    }
+    
+    .circle-4 {
+        animation-duration: 55s;
+    }
+    
+    .circle-5 {
+        animation-duration: 60s;
+    }
+}
+
+/* Small Desktop Responsive Styles */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .benefit-item {
+        padding: 60px 120px;
+        gap: 100px;
+    }
+
+    .benefit-content {
+        gap: 28px;
+    }
+
+    .benefit-title {
+        font-size: 42px;
+    }
+
+    .benefit-description {
+        font-size: 18px;
+    }
+
+    .benefits-detail-section {
+        padding: 100px 120px;
+    }
+
+    .benefits-detail-container {
+        gap: 120px;
+    }
+
+    .benefits-detail-visual {
+        max-width: 500px;
+        height: 650px;
+    }
+
+    .benefits-detail-title {
+        font-size: 42px;
+    }
+
+    .benefits-detail-description {
+        font-size: 18px;
+    }
+
+    .how-to-use-section {
+        height: 800px;
+    }
+
+    .usage-title {
+        font-size: 64px;
+        top: 110px;
+    }
+
+    .demo-phone-container {
+        top: 280px;
+        height: 350px;
+    }
+
+    .apple-pay-logo {
+        height: 140px;
+    }
+}
+
+/* Tablet Responsive Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .benefit-item {
+        padding: 50px 60px;
+        gap: 80px;
+    }
+
+    .benefit-content {
+        gap: 24px;
+        width: 45%;
+    }
+
+    .benefit-title {
+        font-size: 36px;
+    }
+
+    .benefit-description {
+        font-size: 16px;
+    }
+
+    .benefit-icon-wrapper {
+        width: 60px;
+        height: 60px;
+    }
+
+    .benefit-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .benefits-detail-section {
+        padding: 80px 60px;
+    }
+
+    .benefits-detail-container {
+        gap: 100px;
+    }
+
+    .benefits-detail-visual {
+        max-width: 450px;
+        height: 600px;
+    }
+
+    .benefits-detail-title {
+        font-size: 36px;
+    }
+
+    .benefits-detail-description {
+        font-size: 16px;
+    }
+
+    .how-to-use-section {
+        height: 700px;
+    }
+
+    .usage-title {
+        font-size: 56px;
+        top: 100px;
+    }
+
+    .demo-phone-container {
+        top: 250px;
+        height: 320px;
+    }
+
+    .apple-pay-logo {
+        height: 120px;
+    }
+
+    .play-button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .play-button img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gradient-overlay-bottom {
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .circle-1 {
+        display: none;
+    }
+    .benefits-detail-visual {
+        height: 450px;
+        max-width: unset;
+    }
+    .play-button {
+        width: 65px;
+        height: 65px;
+       
+    }
+    .animated-circles {
+        top: 25%;
+    }
+    .play-button img {
+        width: 32px;
+        height: 32px;
+    }
+    .how-to-use-section{
+        height: 700px;
+    }
+    .usage-title{
+        font-size: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        top: 115px;
+    }
+    .usage-title div{
+        text-wrap: nowrap;
+    }
+    .apple-pay-logo {
+        height: 90px;
+    }
+    .benefit-item{
+        padding: 64px 16px;
+        flex-direction: column;
+        align-items: unset;
+        gap: 32px
+    }
+    .demo-phone-container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: unset;
+        height: 320px;
+        z-index:4;
+        bottom: 140px;
+    }
+    .benefit-title {
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .benefit-content{
+        width: 100%;
+        gap: 8px;
+    }
+    .benefit-icon-wrapper {
+        width: 48px;
+        height: 48px;
+    }
+    .benefit-description{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .gradient-overlay-bottom{
+        height: 140px;
+    }
+    .benefits-detail-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .benefits-detail-description{
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 20px;
+    }
+    .benefits-detail-content{
+        gap: 16px;
+    }
+  }
+  @media (max-width: 768px) {
+    .benefits-detail-section{
+        padding: 64px 16px;
+    }
+    .benefits-detail-container{
+        flex-direction: column;
+        gap: 32px;
+    }
+  }
